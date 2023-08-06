@@ -3,8 +3,8 @@
 
 #pragma once
 
-#define WS2812_DI_PIN B0
-#define RGBLED_NUM 59
+#define QMK_ESC_OUTPUT E6 // usually COL
+#define QMK_ESC_INPUT F5 // usually ROW
 
 /*
  * Feature disable options
