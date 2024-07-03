@@ -5,6 +5,8 @@
 
 #define QMK_ESC_OUTPUT E6 // usually COL
 #define QMK_ESC_INPUT F5 // usually ROW
+#define FORCE_NKRO
+#define USB_POLLING_INTERVAL_MS 2
 
 /*
  * Feature disable options
