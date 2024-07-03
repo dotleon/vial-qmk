@@ -5,8 +5,10 @@
 
 #define QMK_ESC_OUTPUT F4 // usually COL
 #define QMK_ESC_INPUT D5 // usually ROW
-#define RGBLIGHT_LIMIT_VAL 60
+#define RGBLIGHT_LIMIT_VAL 40
 #define RGBLIGHT_SLEEP
+#define FORCE_NKRO
+#define USB_POLLING_INTERVAL_MS 1
 
 /*
  * Feature disable options
