@@ -7,6 +7,7 @@
 #define QMK_ESC_INPUT F5 // usually ROW
 #define FORCE_NKRO
 #define USB_POLLING_INTERVAL_MS 2
+#define DEBOUNCE 15
 
 /*
  * Feature disable options
